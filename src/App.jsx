@@ -51,11 +51,11 @@ export default function App() {
       {/* Recorremos el arreglo contactos y pintamos una tarjeta por cada uno */}
       {contactos.map((c) => (
         <ContactoCard
-          key={c.id}            // key única para React
-          nombre={c.nombre}     // prop nombre
-          telefono={c.telefono} // prop telefono
-          correo={c.correo}     // prop correo
-          etiqueta={c.etiqueta} // prop etiqueta (Cliente, Instructor, etc.)
+          key={c.id}            
+          nombre={c.nombre}     
+          telefono={c.telefono} 
+          correo={c.correo}    
+          etiqueta={c.etiqueta}
         />
       ))}
 
